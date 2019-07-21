@@ -42,6 +42,6 @@ public class CloudStorageService {
         try (OutputStream os = ((WritableResource) resource).getOutputStream()) {
             os.write(data.getBytes());
         }
-        return "report has been written in " + gcsFileLocation;
+        return " " + gcsFileLocation;
     }
 }

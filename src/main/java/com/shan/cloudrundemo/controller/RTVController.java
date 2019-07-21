@@ -31,4 +31,9 @@ class RTVController {
         return "Hello, report has been written  in  " + response;
     }
 
+    @GetMapping("/ping")
+    String sayHello(){
+        return "Hello there, I got your ping!";
+    }
+
 }
