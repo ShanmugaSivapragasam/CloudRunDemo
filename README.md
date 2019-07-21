@@ -1,6 +1,6 @@
 # CloudRunDemo
 
-##About
+## About
 
 Quick `Cloud Run` sample with  `Cloud Storage ` and optional `Cloud Scheduler`
 
@@ -15,4 +15,4 @@ Quick `Cloud Run` sample with  `Cloud Storage ` and optional `Cloud Scheduler`
     - `*/15 * * * *`
 
 ## TODO
- * currently do not support local validation or testing. Needs to be deployed in GCP to validate
+ * currently do not support local validation or testing. This forces app to be deployed in GCP to validate. Hence updates to be done to fix this
